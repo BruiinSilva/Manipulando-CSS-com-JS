@@ -14,11 +14,10 @@ button {
     width: 100px;
     right: 30px;
     border-radius: 5px;
-    background-color: #050;
+    background-color: aqua;
     font-weight: bolder;
     color: #fff;
-    border:  1px outset #ccc;
-
+    border:  1px outset black;
 
 }
 
