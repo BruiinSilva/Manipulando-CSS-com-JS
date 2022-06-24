@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno C.Gomes" />
+    <title>Manipulando CSS com JS</title>
+    <link href="CSS/estilo.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body id="body">
+    <header>
+        <div class="container">
+            <h1> Manipulando CSS com JS</h1>
+            <hr/>
+            <form onsubmit="return false;">
+                <!--Dar um estilo essa div que aplicou nesse codigo-->
+                <div>
+                    <label>Cor do Texto</label><br/>
+                    <input type="color" id="cor-texto"  value="#16161d" />
+                </div>
+                <div>
+                    <label>Cor do Fundo</label><br/>
+                    <input type="color" id="cor-fundo" value="#ffffff" />
+                </div>
+                <div>
+                    <label>Tamanho do Texto</label><br/>
+                    <input type="number" id="tamanho-texto" value="12" />
+                </div>
+                <div class="btn-alterar">
+                 <button onclick="alterarCss();">Alterar</button>
+                </div>
+            </form>
+        </div>
+        <hr/>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Titulo</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Voluptatum beatae repudiandae delectus et, amet, necessitatibus, 
+                nam numquam tempora tempore possimus totam laudantium facere. 
+                Eaque aut aperiam voluptatibus architecto distinctio quasi!
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Voluptatum beatae repudiandae delectus et, amet, necessitatibus, 
+                nam numquam tempora tempore possimus totam laudantium facere. 
+                Eaque aut aperiam voluptatibus architecto distinctio quasi!
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Voluptatum beatae repudiandae delectus et, amet, necessitatibus, 
+                nam numquam tempora tempore possimus totam laudantium facere. 
+                Eaque aut aperiam voluptatibus architecto distinctio quasi!
+            </p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
