@@ -3,34 +3,32 @@ body {
     color: rgb(3, 3, 3);
 }
 
-
 .btn-alterar {
     align-items: center;
     display: flex;
-
 }
 
 button {
     width: 100px;
     right: 30px;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: #050;
     font-weight: bolder;
     color: #fff;
-    border:  1px outset black;
+    border:  1px outset #ccc;
 
 }
 
-button:hover{
+button:hover {
     background-color: #f00;
     box-shadow: 5px 5px 10px #161611;
 }
 
 
-
 .container {
     margin: 20px 50px;
 }
+
 
 .container Form {
     display: flex;
@@ -42,7 +40,6 @@ button:hover{
     padding: 15px 30px;
 
 }
-
 
 
 .container form div:not(:last-child) {
