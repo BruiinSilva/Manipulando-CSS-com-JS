@@ -3,7 +3,7 @@ body {
     color: rgb(3, 3, 3);
 }
 
-/* centralizar o botão alterar*/
+
 .btn-alterar {
     align-items: center;
     display: flex;
@@ -20,7 +20,6 @@ button {
 
 }
 
-/*Alterna na cor do botao quando passa o mause*/
 button:hover{
     background-color: #f00;
     box-shadow: 5px 5px 10px #161611;
@@ -31,19 +30,18 @@ button:hover{
     margin: 20px 50px;
 }
 
-/* faz ficar no meio*/
 .container Form {
     display: flex;
     justify-content: center;
 }
 
-/*Criar linha na vertical*/
+
 .container form div{
     padding: 15px 30px;
 
 }
 
-/*Tira a ultima div da formataçao, linha no caso do site.*/
+
 .container form div:not(:last-child) {
     border-right: 1px inset blueviolet;
 }
